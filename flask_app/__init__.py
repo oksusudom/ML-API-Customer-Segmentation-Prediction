@@ -90,7 +90,12 @@ def create_app():
                     e.preventDefault();
 
                     axios.get("/predict", {{
-                        params: new FormData(frm)
+                        params: {{
+                            age: frm.age.value,
+                            graduated: frm.graduated.value,
+                            profession: frm.profession.value,
+                            spending_score: frm.spending_score.value
+                        }}
                     }}).then(function(response){{
                         alert(response.data);
                     }});
