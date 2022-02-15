@@ -40,16 +40,16 @@ def create_app():
             </head>
             <body>
 
-                <form name="frm" id="frm" method="post">
-                    <input type="number" min="1" max="89" placeholder="Age" />
+                <form name="frm" id="frm" method="get" target="_self" action="">
+                    <input type="number" name="age" min="1" max="89" placeholder="Age" />
                     <fieldset>
                         <legend>Graduated</legend>
                         <label>
-                            <input type="radio" name="gradudated" value="Yes" />
+                            <input type="radio" name="graduated" value="Yes" />
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input type="radio" name="gradudated" value="No" />
+                            <input type="radio" name="graduated" value="No" />
                             <span>No</span>
                         </label>
                     </fieldset>
