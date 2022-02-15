@@ -1,6 +1,7 @@
 from flask import Flask, request
 
-from lib_model import predict
+from flask_app.lib_model import predict
+
 
 def create_app():
 
@@ -88,7 +89,7 @@ def create_app():
                 var frm = document.forms.frm;
                 frm.onsubmit = function(e){{
                     e.preventDefault();
-                    
+
                     axios.get("/predict", {{
                         params: new FormData(frm)
                     }}).then(function(response){{
