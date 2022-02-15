@@ -5,7 +5,7 @@ import pandas as pd
 def get_model():
     model = None
     
-    with open('./model.pkl', 'rb') as pickle_file:
+    with open('flask_app/model.pkl', 'rb') as pickle_file:
         model = pickle.load(pickle_file)
 
     return model
