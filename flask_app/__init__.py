@@ -1,7 +1,6 @@
 from flask import Flask, request
 
-from flask_app.lib_model import predict
-
+from .lib_model import predict
 
 def create_app():
 
