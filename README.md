@@ -26,3 +26,23 @@ Kaggle의 [Customer Segmentation](https://www.kaggle.com/datasets/vetrirah/custo
         family_size,    /* 7 가족 구성원 수 */
         var_1,          /* 8 카테고리?: (Categorical Data) */
         segmentation    /* 9 고객 등급: A, B, C, D */
+
+
+
+        test accuracy: 0.47690461907618475
+        Report:               precision    recall  f1-score   support
+                         A       0.40      0.39      0.40       407
+                         B       0.35      0.33      0.34       385
+                         C       0.53      0.54      0.54       444
+                         D       0.59      0.62      0.61       431
+                  accuracy                           0.48      1667
+                 macro avg       0.47      0.47      0.47      1667
+              weighted avg       0.47      0.48      0.47      1667
+          
+        confusion matrix
+             [[160  97  59  91]
+              [ 93 127 124  41]
+              [ 51 102 241  50]
+              [ 93  40  31 267]]
+        micro 평균 f1 점수 : 0.477
+        macro 평균 f1 점수 : 0.470
