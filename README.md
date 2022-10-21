@@ -41,8 +41,10 @@ Kaggle의 [Customer Segmentation](https://www.kaggle.com/datasets/vetrirah/custo
 
 
 ## 서비스 시연
-사진1
-사진2
+<img width="434" alt="api" src="https://user-images.githubusercontent.com/81462099/197116936-114d7938-1c09-41db-bd42-661deaae5e4a.png">
+
+<img width="434" alt="api2" src="https://user-images.githubusercontent.com/81462099/197116946-6fe39f94-25bc-47a9-830c-6b71768077d4.png">
+
 
 ## 마무리
 
