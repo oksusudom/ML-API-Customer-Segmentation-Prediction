@@ -4,11 +4,10 @@ Customer Segmentation Prediction
 
 
 ## 프로젝트 배경
-- 고객별 마케팅 전략 수립을 위해서는 고객 세분화가 필수적으로 여겨진다.
 
-- 프로젝트에 사용된 데이터는 고객 정보(성별, 결혼 여부, 연령, 대학 졸업 여부, 직종, 경력 연차, 소비 점수, 가족 구성원 수 등)를 통해 고객을 A,B,C,D로 분류하는 목표를 가지고 있다.
+- 프로젝트에 사용된 데이터는 고객 정보(성별, 결혼 여부, 연령, 대학 졸업 여부, 직종, 경력 연차, 소비 점수, 가족 구성원 수 등)를 통해 고객을 A,B,C,D로 분류하는 목표를 가지고 있습니다.
 
-- 데이터 분석을 통해 어떤 기준으로 A,B,C,D로 분류되는지 살펴보고
+- **해당 프로젝트는 클라우드 데이터베이스인 PotgreSQL에 데이터를 저장, Metabase를 사용한 데이터분석용 대시보드 개발, Flask한 사용해 API 서비스 개발, Heroku를 사용한 서비스 배포 등 APi 서비스 구축을 중점으로 진행했습니다.**
 
 
 ## 문제 정의
@@ -28,6 +27,10 @@ Kaggle의 [Customer Segmentation](https://www.kaggle.com/datasets/vetrirah/custo
         segmentation    /* 9 고객 등급: A, B, C, D */
 
 
+## 파이프라인
+
+
+XGBClassifier 모델 결과
 
         test accuracy: 0.47690461907618475
         Report:               precision    recall  f1-score   support
