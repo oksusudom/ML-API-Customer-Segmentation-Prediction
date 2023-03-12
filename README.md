@@ -49,7 +49,6 @@ Kaggle의 [Customer Segmentation](https://www.kaggle.com/datasets/vetrirah/custo
 ## 마무리
 
 - API 개발 및 배포에 대한 전반적인 이해도를 올릴 수 있는 프로젝트였다.
-- 짧은 기간에 진행된 프로젝이이기 때문에 분석에 깊이가 부족한 점이 아쉬웠다.
 - 데이터를 크롤링하지 못한 점이 아쉽다.
 - 다중분류에 대한 이해도가 부족했다. 추가 학습할 부분이다.
 - HTML, CSS에 대한 경험이 없어 API 서비스 화면 구성에서 각 입력 구분하기 어려웠다.
